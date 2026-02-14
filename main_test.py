@@ -42,7 +42,7 @@ def main():
     identity.wardrobe.add_item(item2)
 
     user.add_identity(identity)
-
+  
     users.append(user)
 
     save_users(users)

@@ -11,8 +11,12 @@ class ClothingItem:
         style,
         season,
         image_path=None,
+        processed_image_path=None,
+        mask_path=None,
+        is_processed=False,
         item_id=None
     ):
+
         self.item_id = item_id or str(uuid.uuid4())
         self.name = name
         self.category = category  # tops, bottoms, shoes, etc.
