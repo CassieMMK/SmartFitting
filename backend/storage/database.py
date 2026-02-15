@@ -1,6 +1,6 @@
 import json
 import os
-from models.user import User
+from backend.models.user import User
 
 
 DATA_PATH = "data/users.json"

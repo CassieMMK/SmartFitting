@@ -1,7 +1,7 @@
-from models.user import User
-from models.identity import Identity
-from models.clothing_item import ClothingItem
-from storage.database import load_users, save_users
+from backend.models.user import User
+from backend.models.identity import Identity
+from backend.models.clothing_item import ClothingItem
+from backend.storage.database import load_users, save_users
 
 
 def main():

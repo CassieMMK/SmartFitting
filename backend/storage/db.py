@@ -1,11 +1,11 @@
 import sqlite3
 import os
 
-DB_PATH = "storage/smartfit.db"
+DB_PATH = "backend/storage/smartfit.db"
 
 
 def get_connection():
-    os.makedirs("storage", exist_ok=True)
+    os.makedirs("backend/storage", exist_ok=True)
     return sqlite3.connect(DB_PATH)
 
 

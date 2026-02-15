@@ -1,4 +1,4 @@
-from models.wardrobe import Wardrobe
+from backend.models.wardrobe import Wardrobe
 import uuid
 
 

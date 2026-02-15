@@ -1,5 +1,5 @@
 import uuid
-from models.identity import Identity
+from backend.models.identity import Identity
 
 
 class User:

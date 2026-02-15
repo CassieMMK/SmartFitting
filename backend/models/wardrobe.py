@@ -1,4 +1,4 @@
-from models.clothing_item import ClothingItem
+from backend.models.clothing_item import ClothingItem
 
 
 class Wardrobe:
